@@ -1,0 +1,256 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(11, 11, 157);
+    background-color: rgb(176, 213, 238);
+    /* border: 1px solid black; */
+    text-decoration: underline;
+
+}
+
+/* 
+h2 {
+    color: rgb(11, 11, 157);
+} */
+
+#formdiv {
+    color: rgb(6, 6, 166);
+    font-weight: bold;
+    border: 1px solid rgb(19, 81, 249);
+    box-shadow: gray;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 500px;
+    /* background-color: rgb(177, 200, 233); */
+    /* background-image: url(blur-hospital-clinic-interior.jpg); */
+    background-size: cover;
+    /* font-size: larger; */
+}
+
+a {
+    position:fixed;
+    top: 65%;
+    right: 30%;
+
+}
+
+
+
+button {
+    width: 8rem;
+}
+
+.submitbutton{
+    width: 4rem;
+    margin-top:28%;
+    margin-left: 50%;
+    position:fixed;
+}
+
+
+.Education,
+.skills,
+.Experience {
+    /* background-color: rgb(16, 115, 82); */
+    border: 1.5px solid rgb(23, 79, 220);
+    border-radius: 12px;
+    margin: 32px;
+
+}
+
+
+.degree {
+    /* background-color: beige; */
+    font-weight: bold;
+
+}
+
+.grade {
+    /* background-color: beige; */
+    font-weight: bold;
+
+}
+
+
+.unicolgname {
+    /* background-color: aqua; */
+    font-weight: bold;
+
+}
+
+.Education>div {
+    display: flex;
+    justify-content: center;
+    margin: 4px;
+}
+
+
+
+#skilltextarea,
+#Experiencetextarea {
+    display: flex;
+    justify-content: center;
+}
+
+
+button.createresume{
+    margin-left: 47%;
+    height: 2rem;
+    /* border: 2px white solid; */
+    border-radius: 6px;
+    background-color:rgb(23, 79, 220);
+    color: white;
+    font-weight: bold;
+}
+
+button.createresume:hover{
+    background-color:rgb(176, 213, 238);
+    color:black;
+}
+
+
+
+
+#wholebody {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: flex-start;
+}
+
+.leftarea {
+    background-color: rgb(9, 57, 106);
+    width: 25%;
+    color: white;
+    border: 1px solid black;
+    padding: 1.5rem;
+}
+
+
+.profileimg {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.image {
+    border: 2px solid rgb(253, 251, 251);
+    border-radius: 50%;
+    /* padding: 2rem; */
+    margin-top: 2rem;
+    /* margin-left:6rem; */
+    height: 12rem;
+    width: 12rem;
+
+}
+
+
+.Name {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+
+}
+
+.leftheadings2 {
+    color: white;
+    text-align: center;
+
+}
+
+
+
+.Objrctive {
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+
+    /* background-color: aqua; */
+}
+
+
+.Contact {
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+
+}
+
+
+.Skills>h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.Skills>ul li {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.Rightarea {
+    background-color: rgb(229, 223, 216);
+    padding: 1.5rem;
+    width: 75%;
+}
+
+h2 {
+    color: rgb(9, 57, 106);
+}
+
+
+
+@media (max-width: 1024px) {
+    #wholebody {
+        flex-direction: column;
+    }
+
+    .leftarea,
+    .Rightarea {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .image {
+        height: 8rem;
+        width: 8rem;
+    }
+
+    .leftarea {
+        padding: 1rem;
+    }
+
+    .Rightarea {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .leftarea,
+    .Rightarea {
+        padding: 0.5rem;
+    }
+}
+
+
+
